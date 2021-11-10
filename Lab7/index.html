@@ -1,0 +1,70 @@
+<html>
+    <head>
+		<link rel="stylesheet"  href="style.css">
+        <script src="script.js"></script>
+		<title>Grades Program</title>
+	</head>
+
+    <body>
+        <h1>Get All Grades</h1>
+        <button onclick="getAllGrades()">get all grades</button>
+        <table class="All Student table">
+            <tr class="bg-info">
+                <th>Name</th><th>Grade</th>
+            </tr>
+            <tbody id="allGradeTable">
+            </tbody>
+        </table>
+        <br />
+
+        <h1>Get Single Student Grade</h1>
+        name: <input id="getSingleName" style="width: 300px;"> <br />
+        <button onclick="getSingleStudent()">get single grade</button>
+        <table class="Single Student table">
+            <tr class="bg-info">
+                <th>Name</th><th>Grade</th>
+            </tr>
+            <tbody id="singleGradeTable">
+            </tbody>
+        </table>
+        <br />
+
+        <h1>Add New Student Grade</h1>
+        name: <input id="postSingleName" style="width: 300px;"> <br />
+        grade: <input id="postSingleGrade" style="width: 300px;"> <br />
+        <button onclick="postStudent()">post single grade</button>
+        <table class="Post Student table">
+            <tr class="bg-info">
+                <th>Name</th><th>Grade</th>
+            </tr>
+            <tbody id="postGradeTable">
+            </tbody>
+        </table>
+        <br />
+
+        <h1>Update Student Grade</h1>
+        name: <input id="putSingleName" style="width: 300px;"> <br />
+        grade: <input id="putSingleGrade" style="width: 300px;"> <br />
+        <button onclick="putStudent()">put single grade</button>
+        <table class="Put Student table">
+            <tr class="bg-info">
+                <th>Name</th><th>Grade</th>
+            </tr>
+            <tbody id="putGradeTable">
+            </tbody>
+        </table>
+        <br />
+
+        <h1>Delete Student</h1>
+        <input id="deleteSingleName" style="width: 300px;"> <br />
+        <button onclick="deleteStudent()">delete student</button>
+        <table class="Delete Student table">
+            <tr class="bg-info">
+                <th>Name</th> <th>Grade</th>
+            </tr>
+            <tbody id="deleteGradeTable">
+            </tbody>
+        </table>
+    </body>
+
+</html>
