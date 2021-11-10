@@ -1,0 +1,13 @@
+body {
+background-color: #EAD9BD}
+
+.header {
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 2px solid black;
+  text-align: center;
+}
+
+li a:hover{
+background-color: gray;}
+
